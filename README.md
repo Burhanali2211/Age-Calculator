@@ -9,6 +9,7 @@ This project is a simple Age Calculator built using Python. It takes the user's 
 - Prevents invalid future birthdates from being entered.
 - Handles invalid inputs gracefully.
 
+
 ## Technologies Used
 - Python
 - datetime module
