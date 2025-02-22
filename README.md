@@ -1,31 +1,63 @@
-   **Age_Calculator**
+# Age Calculator using Python
 
+## Overview
+This project is a simple Age Calculator built using Python. It takes the user's birth date as input and calculates their age in years, months, and days based on the current date.
 
+## Features
+- User inputs their birth year, month, and day.
+- The program calculates and displays the exact age in years, months, and days.
+- Prevents invalid future birthdates from being entered.
+- Handles invalid inputs gracefully.
 
-**Step1:**  
+## Technologies Used
+- Python
+- datetime module
 
-First of all, we need to import two libraries into our code. The first one is the time and date
+## Steps to Run the Project
 
-**Step2:**  
+### 1. Install Python
+Ensure you have Python installed on your system.
 
-Now, just use Age_Calculator.py code run it on online r any complier 
+### 2. Run the Script
+Execute the Python script:
+```bash
+python Age-Calculator.py
+```
 
-**Step3:**
+### 3. Enter Birthdate
+Provide your birth year, month, and day when prompted.
 
-It will frist your date of birth year!
+### 4. Output
+The program will display your age in the format:
+```
+Age: X years, Y months, and Z days
+```
 
-**Step4:** 
+## Example Usage
+```
+Enter the birth year: 2000
+Enter the birth month: 5
+Enter the birth day: 15
+Age: 23 years, 9 months, and 7 days
+```
 
-Then it will ask your birth month!
+## Handling Errors
+- If the user enters a birthdate in the future, the program returns an error message.
+- If invalid input (non-integer values) is provided, the program displays an appropriate error.
 
-**Step5:** 
+## Project Structure
+```
+|-- Age-Calculator.py
+|-- README.md
+```
 
-Then it will ask your birth day!
+## Future Improvements
+- GUI-based age calculator.
+- Support for additional date formats.
 
-**Step6:**  
+## License
+This project is open-source and free to use.
 
-Finally it will just a date of you enterted and current date and time it will print the the years and months days!
+---
+Happy Coding! 😊
 
-**conclusion:** 
-
-It is useful to Calculate birthdays in years!
