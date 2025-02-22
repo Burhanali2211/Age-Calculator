@@ -61,4 +61,5 @@ This project is open-source and free to use.
 
 ---
 Happy Coding! 😊
+Have Fun
 
